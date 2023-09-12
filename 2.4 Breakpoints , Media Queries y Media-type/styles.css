@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #131415;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 40px;
+}
+
+.elemento {
+  width: 200px;
+  height: 200px;
+  background: #e11d48;
+  border-radius: 10px;
+}
+
+/* @media (min/max-width: ...px) {
+    Contenido
+} */
+
+/* @media media-type(media-feature){
+    Contenido
+} */
+
+/* @media all {
+  ...;
+}
+
+@media print {
+  ...;
+}
+
+@media speech {
+  ...;
+} */
+
+/* @media (max-width: 720px) and (orientation: landscape){
+    ... 
+} */
+
+/* @media screen and (max-width: 990px) {
+  body {
+    background: crimson;
+  }
+
+  .elemento {
+    background: cornflowerblue;
+  }
+} */
+
+/* @media print {
+  body {
+    background: #e11d48;
+  }
+
+  .elemento {
+    background: #131415;
+    height: 500px;
+  }
+} */
+
+/* Algunas medidas que se pueden utilizar de base para distintos dispositivos */
+
+/* 
+- 320px - 480px: Mobile, Celulares
+- 481px - 768px: Tablets
+- 769px 0 1024px: Pantallas pequeñas, notebooks
+- 1025px a 1200px: Escritorio, pantallas grandes
+- 1201px en adelante: Extra Large, Full HD, TV, Widescreen
+*/
